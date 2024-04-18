@@ -1,0 +1,17 @@
+*{
+    text-align: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+td, th {
+    border: 1px solid black; 
+    padding: 8px;
+}
+
+#startVal, #endVal{
+    width: 40px;
+}

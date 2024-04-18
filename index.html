@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication Table</title>
+
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <h1>Multiplication Table Generator</h1>
+    <form novalidate onsubmit="return generateTable()">
+        <fieldset>
+            <legend>Please input values between 2 and 10. This will serve as your beginning and ending values.</legend>
+
+            <input type="number" id="startVal">
+            by
+            <input type="number" id="endVal"></br></br>
+            <input type="submit" value="Click here to get your multiplication table!">
+        </fieldset>
+    </form></br>
+
+    <table id="multTable"></table>
+    <script src="myscript.js"></script>
+</body>
+</html>
